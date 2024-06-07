@@ -30,6 +30,8 @@ function getRoomStyle(feature) {
       return { color: "#000000", fillColor: "#DDA0DD", fillOpacity: 0.5 };
     case "lecture":
       return { color: "#000000", fillColor: "#008a1e", fillOpacity: 0.5 };
+    case "shop":
+      return { color: "#000000", fillColor: "#4e008a", fillOpacity: 0.5 };
     default:
       return { color: "#000000", fillColor: "#FFFFFF", fillOpacity: 0.5 };
   }
@@ -39,11 +41,7 @@ function getRoomStyle(feature) {
 function addGeoJsonLayer(data) {
   L.geoJSON(data, {
     style: function (feature) {
-      if (
-        feature.properties.indoor === "room" ||
-        feature.properties.indoor === "level" ||
-        feature.properties.indoor === "corridor"
-      ) {
+      if (feature.geometry.type === "Polygon") {
         return getRoomStyle(feature);
       }
     },
@@ -77,7 +75,11 @@ function filterByFloor(data, floor) {
   return {
     type: "FeatureCollection",
     features: data.features.filter(function (feature) {
-      return feature.properties.level === floor.toString();
+      // Check if the level matches or if it spans multiple levels and includes the current floor
+      var levels = feature.properties.level.split("-").map(Number);
+      return levels.length === 1
+        ? levels[0] === floor
+        : floor >= levels[0] && floor <= levels[1];
     }),
   };
 }
@@ -99,4 +101,60 @@ $(document).ready(function () {
     geojsonData = data;
     showFloor(0);
   });
+
+  $("#route-form").on("submit", function (e) {
+    e.preventDefault();
+    var roomName = $("#room-name").val();
+    findAndDrawRoute(roomName);
+  });
 });
+
+// Function to find and draw the route to the specified room
+function findAndDrawRoute(roomName) {
+  var startPoint = [18.6775707468, 50.2886942247]; // Coordinates of the entrance
+  var endPoint = null;
+  var corridors = [];
+  var rooms = [];
+
+  // Find the room and corridors in the geojsonData
+  geojsonData.features.forEach(function (feature) {
+    if (feature.properties.name === roomName) {
+      endPoint = feature.geometry.coordinates[0][0]; // Assuming the first coordinate is the target
+      rooms.push(feature);
+    }
+    if (feature.properties.indoor === "corridor") {
+      corridors.push(feature);
+    }
+  });
+
+  if (endPoint) {
+    console.log("Start Point:", startPoint); // Debugging output
+    console.log("End Point:", endPoint); // Debugging output
+
+    var graph = constructGraph(corridors, rooms);
+    var path = findShortestPath(graph, startPoint, endPoint);
+    if (path.length > 0) {
+      drawPath(path);
+    } else {
+      alert("No valid path found.");
+    }
+  } else {
+    alert("Room not found");
+  }
+}
+
+// Function to draw the path on the map
+function drawPath(path) {
+  if (path.length === 0) {
+    alert("No valid path to draw.");
+    return;
+  }
+
+  var latlngs = path.map(function (coord) {
+    return [coord[1], coord[0]]; // Convert to [lat, lng]
+  });
+
+  console.log("Path:", JSON.stringify(latlngs, null, 2)); // Detailed logging
+  var polyline = L.polyline(latlngs, { color: "red" }).addTo(map);
+  map.fitBounds(polyline.getBounds());
+}
