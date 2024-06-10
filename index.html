@@ -11,9 +11,9 @@
 </head>
   <body>
     <div id="controls">
-      <button onclick="showFloor(0)">Floor 0</button>
-      <button onclick="showFloor(1)">Floor 1</button>
-      <button onclick="showFloor(2)">Floor 2</button>
+      <button id="floor_0" onclick="showFloor(0)">Floor 0</button>
+      <button id="floor_1" onclick="showFloor(1)">Floor 1</button>
+      <button id="floor_2" onclick="showFloor(2)">Floor 2</button>
       <!-- Add more buttons for additional floors -->
       <form id="route-form">
         <label for="room-name">Enter Room Name:</label>
@@ -25,5 +25,6 @@
     <script src="js/data.js"></script>
     <script src="js/script.js"></script>
     <script src="js/pathfinding.js"></script>
+    <script src="js/roomfilter.js"></script>
   </body>
 </html>

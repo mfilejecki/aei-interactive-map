@@ -93,10 +93,25 @@ function showFloor(floor) {
   });
   var filteredData = filterByFloor(geojsonData, floor);
   addGeoJsonLayer(filteredData);
+  setButtonStyles(floor);
+}
+
+function setButtonStyles(activeFloor) {
+  // Get all buttons
+  const buttons = document.querySelectorAll('button[id^="floor_"]');
+  buttons.forEach(function (button) {
+    // Remove the active class from all buttons
+    button.classList.remove("active-floor");
+  });
+
+  // Add the active class to the clicked button
+  const activeButton = document.getElementById("floor_" + activeFloor);
+  activeButton.classList.add("active-floor");
 }
 
 // Initially show floor 0
 $(document).ready(function () {
+  setButtonStyles(0);
   $.getJSON("data/indoor_map.geojson", function (data) {
     geojsonData = data;
     showFloor(0);
