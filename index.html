@@ -21,6 +21,21 @@
         <button type="submit">Find Route</button>
     </form>
     </div>
+    <div id="filter-controls">
+      <label for="room-filter">Filter Rooms:</label>
+      <select id="room-filter" name="room-filter" onchange="filterRoomsByType('test',this.value)">
+        <option value="all">All Rooms</option>
+        <option value="lecture">Lecture</option>
+        <option value="class">Class</option>
+        <option value="stairs">Stairs</option>
+        <option value="elevator">Elevator</option>
+        <option value="toilets">Toilet</option>
+        <option value="shop">Shop</option>
+        <option value="storage">Storage</option>
+        <option value="office">Office</option>
+        <!-- <option value="exit">Exits</option> -->
+      </select>
+    </div>
     <div id="map"></div>
     <script src="js/data.js"></script>
     <script src="js/script.js"></script>
