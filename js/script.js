@@ -33,16 +33,16 @@ function getRoomStyle(feature) {
     case "shop":
       return { color: "#000000", fillColor: "#4e008a", fillOpacity: 0.5 };
     default:
-      return { color: "#000000", fillColor: "#FFFFFF", fillOpacity: 0.5 };
+      return { color: "#000000", fillColor: "#CCCCCC", fillOpacity: 0.3 };
   }
 }
 
 // Function to add GeoJSON data to the map with popups and styles
-function addGeoJsonLayer(data) {
+function addGeoJsonLayer(data, styleFunction) {
   L.geoJSON(data, {
     style: function (feature) {
       if (feature.geometry.type === "Polygon") {
-        return getRoomStyle(feature);
+        return styleFunction(feature);
       }
     },
     pointToLayer: function (feature, latlng) {
@@ -92,7 +92,7 @@ function showFloor(floor) {
     }
   });
   var filteredData = filterByFloor(geojsonData, floor);
-  addGeoJsonLayer(filteredData);
+  addGeoJsonLayer(filteredData, getRoomStyle);
   setButtonStyles(floor);
   console.log(filteredData);
 }

@@ -11,18 +11,17 @@ function getCurrentFloorNumber() {
   }
 }
 
+// Define a style for non-filtered elements
+function nonFilteredStyle() {
+  return {
+    color: "#000000",
+    fillColor: "#CCCCCC", // Change this color as per your requirement
+    fillOpacity: 0.3,
+  };
+}
+
 // Function to filter GeoJSON data by room type
-function filterByRoomType(data, type) {
-  const currentFloor = parseInt(getCurrentFloorNumber(), 10);
-
-  if (isNaN(currentFloor)) {
-    console.error("Current floor number is not valid.");
-    return {
-      type: "FeatureCollection",
-      features: [],
-    };
-  }
-
+function filterByRoomType(data, type, currentFloor) {
   return {
     type: "FeatureCollection",
     features: data.features.filter(function (feature) {
@@ -42,19 +41,33 @@ function filterByRoomType(data, type) {
   };
 }
 
-// Function to show rooms of a specific type on the current floor
+// Modify the showRoomsOfType function
 function showRoomsOfType(type) {
+  const currentFloor = parseInt(getCurrentFloorNumber(), 10);
+
+  if (isNaN(currentFloor)) {
+    console.error("Current floor number is not valid.");
+    return;
+  }
+
   map.eachLayer(function (layer) {
     if (layer instanceof L.GeoJSON) {
       map.removeLayer(layer);
     }
   });
 
+  // If type is "all", directly add all features with getRoomStyle
   if (type === "all") {
-    addGeoJsonLayer(geojsonData);
+    addGeoJsonLayer(geojsonData, getRoomStyle);
     return;
   }
 
-  const filteredData = filterByRoomType(geojsonData, type);
-  addGeoJsonLayer(filteredData);
+  // Filter the data based on the room type and current floor
+  const filteredData = filterByRoomType(geojsonData, type, currentFloor);
+
+  // Add non-filtered features with nonFilteredStyle
+  addGeoJsonLayer(geojsonData, nonFilteredStyle);
+
+  // Add filtered features with getRoomStyle
+  addGeoJsonLayer(filteredData, getRoomStyle);
 }
