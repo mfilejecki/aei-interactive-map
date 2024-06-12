@@ -23,7 +23,7 @@
     </div>
     <div id="filter-controls">
       <label for="room-filter">Filter Rooms:</label>
-      <select id="room-filter" name="room-filter" onchange="filterRoomsByType('test',this.value)">
+      <select id="room-filter" name="room-filter" onchange="showRoomsOfType(this.value)">
         <option value="all">All Rooms</option>
         <option value="lecture">Lecture</option>
         <option value="class">Class</option>

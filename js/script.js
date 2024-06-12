@@ -94,6 +94,7 @@ function showFloor(floor) {
   var filteredData = filterByFloor(geojsonData, floor);
   addGeoJsonLayer(filteredData);
   setButtonStyles(floor);
+  console.log(filteredData);
 }
 
 function setButtonStyles(activeFloor) {
