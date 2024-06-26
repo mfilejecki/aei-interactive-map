@@ -1,8 +1,21 @@
-var map = L.map("map").setView([50.2884, 18.677], 18); // Centered based on provided coordinates
+var map = L.map("map", {
+  maxZoom: 25, // Set the maxZoom option for the map
+}).setView([50.28830289487, 18.67682351476], 20);
 
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  maxZoom: 22, // Increase maxZoom to 22 for higher zoom levels
+  attribution:
+    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  maxZoom: 25, // Set the maxZoom option for the tile layer
 }).addTo(map);
+
+var geojsonData;
+
+fetch("./data/indoor_map.geojson")
+  .then((response) => response.json())
+  .then((data) => {
+    geojsonData = data;
+    L.geoJSON(data).addTo(map);
+  });
 
 // Create a door icon
 var doorIcon = L.icon({
@@ -125,52 +138,107 @@ $(document).ready(function () {
   });
 });
 
-// Function to find and draw the route to the specified room
-function findAndDrawRoute(roomName) {
-  var startPoint = [18.6775707468, 50.2886942247]; // Coordinates of the entrance
-  var endPoint = null;
-  var corridors = [];
-  var rooms = [];
+function findPath() {
+  var roomEntryValue = document.getElementById("roomEntry").value;
+  var mainEntrance, roomEntryNode, corridorPolygon;
 
-  // Find the room and corridors in the geojsonData
-  geojsonData.features.forEach(function (feature) {
-    if (feature.properties.name === roomName) {
-      endPoint = feature.geometry.coordinates[0][0]; // Assuming the first coordinate is the target
-      rooms.push(feature);
+  geojsonData.features.forEach((feature) => {
+    if (feature.properties.entrance === "yes;main") {
+      mainEntrance = feature.geometry.coordinates.slice();
     }
-    if (feature.properties.indoor === "corridor") {
-      corridors.push(feature);
+    if (feature.properties.room_entry === roomEntryValue) {
+      roomEntryNode = feature.geometry.coordinates.slice();
+    }
+    if (
+      feature.geometry.type === "Polygon" &&
+      feature.properties.indoor === "corridor"
+    ) {
+      corridorPolygon = feature.geometry.coordinates[0].map((coord) =>
+        coord.slice()
+      );
     }
   });
 
-  if (endPoint) {
-    console.log("Start Point:", startPoint); // Debugging output
-    console.log("End Point:", endPoint); // Debugging output
-
-    var graph = constructGraph(corridors, rooms);
-    var path = findShortestPath(graph, startPoint, endPoint);
-    if (path.length > 0) {
-      drawPath(path);
-    } else {
-      alert("No valid path found.");
-    }
-  } else {
-    alert("Room not found");
-  }
-}
-
-// Function to draw the path on the map
-function drawPath(path) {
-  if (path.length === 0) {
-    alert("No valid path to draw.");
+  if (!mainEntrance || !roomEntryNode || !corridorPolygon) {
+    alert("Main entrance, room entry, or corridor polygon not found.");
     return;
   }
 
-  var latlngs = path.map(function (coord) {
-    return [coord[1], coord[0]]; // Convert to [lat, lng]
+  var path = findPathWithinPolygon(
+    corridorPolygon,
+    mainEntrance,
+    roomEntryNode
+  );
+
+  if (path) {
+    var polyline = L.polyline(path, { color: "red" }).addTo(map);
+    map.fitBounds(polyline.getBounds());
+  } else {
+    alert("No path found.");
+  }
+}
+
+function findPathWithinPolygon(polygon, start, end) {
+  // Create a bounding box for the polygon
+  var bbox = turf.bbox(turf.polygon([polygon]));
+
+  // Define a grid resolution
+  var resolution = 0.00001; // Adjust this value for the required precision
+  var grid = [];
+  var startNode, endNode;
+
+  // Generate a grid within the bounding box
+  for (var lat = bbox[1]; lat <= bbox[3]; lat += resolution) {
+    var row = [];
+    for (var lng = bbox[0]; lng <= bbox[2]; lng += resolution) {
+      var point = [lng, lat];
+      if (
+        turf.booleanPointInPolygon(turf.point(point), turf.polygon([polygon]))
+      ) {
+        row.push(0); // Walkable
+        if (isClose(point, start))
+          startNode = { x: row.length - 1, y: grid.length };
+        if (isClose(point, end))
+          endNode = { x: row.length - 1, y: grid.length };
+      } else {
+        row.push(1); // Non-walkable
+      }
+    }
+    grid.push(row);
+  }
+
+  if (!startNode || !endNode) {
+    alert("Start or end node is outside the corridor polygon.");
+    return null;
+  }
+
+  // Use PathFinding.js to find the path
+  var gridGraph = new PF.Grid(grid);
+  var finder = new PF.AStarFinder({
+    allowDiagonal: true, // Enable diagonal movements
+    dontCrossCorners: false, // Allow crossing corners if needed
+  });
+  var path = finder.findPath(
+    startNode.x,
+    startNode.y,
+    endNode.x,
+    endNode.y,
+    gridGraph
+  );
+
+  // Convert path to coordinates
+  var pathCoordinates = path.map((node) => {
+    var lng = bbox[0] + node[0] * resolution;
+    var lat = bbox[1] + node[1] * resolution;
+    return [lat, lng];
   });
 
-  console.log("Path:", JSON.stringify(latlngs, null, 2)); // Detailed logging
-  var polyline = L.polyline(latlngs, { color: "red" }).addTo(map);
-  map.fitBounds(polyline.getBounds());
+  return pathCoordinates;
+}
+
+function isClose(coord1, coord2, tolerance = 0.00001) {
+  return (
+    Math.abs(coord1[0] - coord2[0]) < tolerance &&
+    Math.abs(coord1[1] - coord2[1]) < tolerance
+  );
 }
