@@ -10,7 +10,7 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 
 var geojsonData;
 
-fetch("./data/indoor_map.geojson")
+fetch("../data/indoor_map.geojson")
   .then((response) => response.json())
   .then((data) => {
     geojsonData = data;
