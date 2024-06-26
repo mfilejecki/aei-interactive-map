@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+  <title>Indoor Map with Pathfinding</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!--   <script src="js/pathfinding-browser.min.js"></script> Pathfinding.js library -->
+</head>
+  <body>
+    <div id="controls">
+      <button id="floor_0" onclick="showFloor(0)">Floor 0</button>
+      <button id="floor_1" onclick="showFloor(1)">Floor 1</button>
+      <button id="floor_2" onclick="showFloor(2)">Floor 2</button>
+      <!-- Add more buttons for additional floors -->
+      <label for="roomEntry">Enter Room Entry Value:</label>
+    <input type="text" id="roomEntry" />
+    <button onclick="findPath()">Find Path</button>
+    </div>
+    <div id="filter-controls">
+      <label for="room-filter">Filter Rooms:</label>
+      <select id="room-filter" name="room-filter" onchange="showRoomsOfType(this.value)">
+        <option value="all">All Rooms</option>
+        <option value="lecture">Lecture</option>
+        <option value="class">Class</option>
+        <option value="stairs">Stairs</option>
+        <option value="elevator">Elevator</option>
+        <option value="toilets">Toilet</option>
+        <option value="shop">Shop</option>
+        <option value="storage">Storage</option>
+        <option value="office">Office</option>
+        <!-- <option value="exit">Exits</option> -->
+      </select>
+    </div>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/@turf/turf@6.5.0"></script>
+    <script type="text/javascript" src="pathfinding-browser.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/roomfilter.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

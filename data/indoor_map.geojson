@@ -1,0 +1,5815 @@
+{
+    "type": "FeatureCollection",
+    "generator": "JOSM",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "1",
+                "door": "yes",
+                "room_entry": "119",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67699596705,
+                    50.28840597507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "name": "14",
+                "indoor": "room",
+                "type": "way",
+                "level": "0",
+                "id": "1289165631",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67709334680,
+                            50.28851742470
+                        ],
+                        [
+                            18.67714094680,
+                            50.28847782470
+                        ],
+                        [
+                            18.67707590680,
+                            50.28844562470
+                        ],
+                        [
+                            18.67702779680,
+                            50.28848450470
+                        ],
+                        [
+                            18.67709334680,
+                            50.28851742470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "id": "1289165570",
+                "indoor": "room",
+                "room": "lecture",
+                "type": "way",
+                "name": "Aula B",
+                "level": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67708463178,
+                            50.28878281376
+                        ],
+                        [
+                            18.67717834705,
+                            50.28870442507
+                        ],
+                        [
+                            18.67738824705,
+                            50.28880892507
+                        ],
+                        [
+                            18.67729322140,
+                            50.28888669150
+                        ],
+                        [
+                            18.67708463178,
+                            50.28878281376
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "room": "class",
+                "indoor": "room",
+                "type": "way",
+                "level": "1",
+                "name": "131",
+                "id": "1289165653"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67774155500,
+                            50.28836771943
+                        ],
+                        [
+                            18.67771868460,
+                            50.28838640371
+                        ],
+                        [
+                            18.67764660795,
+                            50.28834983837
+                        ],
+                        [
+                            18.67771854705,
+                            50.28829002508
+                        ],
+                        [
+                            18.67776154705,
+                            50.28831152508
+                        ],
+                        [
+                            18.67779185500,
+                            50.28832631943
+                        ],
+                        [
+                            18.67774155500,
+                            50.28836771943
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "access": "yes",
+                "indoor": "room",
+                "name": "toilet for woman",
+                "type": "way",
+                "id": "1289165622",
+                "level": "1",
+                "room": "toilets"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67734874705,
+                            50.28856182507
+                        ],
+                        [
+                            18.67733234705,
+                            50.28855382507
+                        ],
+                        [
+                            18.67731014705,
+                            50.28854292507
+                        ],
+                        [
+                            18.67735704705,
+                            50.28850482507
+                        ],
+                        [
+                            18.67739624705,
+                            50.28852422507
+                        ],
+                        [
+                            18.67734874705,
+                            50.28856182507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "1",
+                "door": "yes",
+                "room_entry": "108",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67695292528,
+                    50.28836800620
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "id": "1289165569",
+                "indoor": "room",
+                "name": "Aula A",
+                "room": "lecture",
+                "type": "way",
+                "level": "0"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67698924680,
+                            50.28886022469
+                        ],
+                        [
+                            18.67707184680,
+                            50.28879342470
+                        ],
+                        [
+                            18.67708504680,
+                            50.28878272470
+                        ],
+                        [
+                            18.67729354680,
+                            50.28888782469
+                        ],
+                        [
+                            18.67719784680,
+                            50.28896532469
+                        ],
+                        [
+                            18.67698924680,
+                            50.28886022469
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "id": "1289165646",
+                "access": "yes",
+                "indoor": "room",
+                "room": "restaurant",
+                "type": "way",
+                "level": "1",
+                "name": "104"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67727194705,
+                            50.28852422507
+                        ],
+                        [
+                            18.67725634705,
+                            50.28851662507
+                        ],
+                        [
+                            18.67721074705,
+                            50.28849432507
+                        ],
+                        [
+                            18.67725744705,
+                            50.28845552507
+                        ],
+                        [
+                            18.67731894705,
+                            50.28848602507
+                        ],
+                        [
+                            18.67727194705,
+                            50.28852422507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "level": "1",
+                "id": "11954169386",
+                "door": "yes",
+                "room_entry": "122"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67723354705,
+                    50.28852392507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "access": "yes",
+                "indoor": "room",
+                "id": "1289165684",
+                "highway": "elevator",
+                "name": "Winda",
+                "type": "way",
+                "room": "elevator",
+                "level": "0;1;3-9"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67779234680,
+                            50.28851032470
+                        ],
+                        [
+                            18.67773084680,
+                            50.28848012470
+                        ],
+                        [
+                            18.67775364680,
+                            50.28846082470
+                        ],
+                        [
+                            18.67781574680,
+                            50.28849102470
+                        ],
+                        [
+                            18.67780934680,
+                            50.28849652470
+                        ],
+                        [
+                            18.67779234680,
+                            50.28851032470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "level": "0",
+                "door": "yes",
+                "id": "11954169384",
+                "room_entry": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67769564680,
+                    50.28834482470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "level": "0",
+                "door": "yes",
+                "id": "119541693707",
+                "room_entry": "stairs"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67745459495,
+                    50.28860385591
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "0",
+                "door": "yes",
+                "room_entry": "10",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67688449680,
+                    50.28835056470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "1289165648",
+                "relations": "[]",
+                "access": "yes",
+                "indoor": "room",
+                "highway": "elevator",
+                "name": "Winda",
+                "type": "way",
+                "level": "0-9",
+                "room": "elevator"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67761324680,
+                            50.28865912470
+                        ],
+                        [
+                            18.67755214680,
+                            50.28862912470
+                        ],
+                        [
+                            18.67757594680,
+                            50.28860922470
+                        ],
+                        [
+                            18.67757604680,
+                            50.28860922470
+                        ],
+                        [
+                            18.67763694680,
+                            50.28863942470
+                        ],
+                        [
+                            18.67763384680,
+                            50.28864192470
+                        ],
+                        [
+                            18.67761324680,
+                            50.28865912470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "1",
+                "door": "yes",
+                "room_entry": "107",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67699413787,
+                    50.28838835845
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "id": "11954169770",
+                "level": "1",
+                "door": "yes",
+                "room_entry": "130"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67778144705,
+                    50.28838782507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "9",
+                "indoor": "room",
+                "type": "way",
+                "level": "0",
+                "id": "1289165678",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67682763680,
+                            50.28838574470
+                        ],
+                        [
+                            18.67677247680,
+                            50.28835854470
+                        ],
+                        [
+                            18.67682058680,
+                            50.28831880471
+                        ],
+                        [
+                            18.67687574680,
+                            50.28834622470
+                        ],
+                        [
+                            18.67682763680,
+                            50.28838574470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "108",
+                "indoor": "room",
+                "type": "way",
+                "level": "1",
+                "id": "1289165678",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67698358011,
+                            50.28838309518
+                        ],
+                        [
+                            18.67694091705,
+                            50.28836222723
+                        ],
+                        [
+                            18.67698989699,
+                            50.28832317853
+                        ],
+                        [
+                            18.67703186011,
+                            50.28834410513
+                        ],
+                        [
+                            18.67698358011,
+                            50.28838309518
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "id": "1289165619",
+                "access": "yes",
+                "indoor": "room",
+                "room": "stairs",
+                "type": "way",
+                "level": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67749314705,
+                            50.28857222507
+                        ],
+                        [
+                            18.67744684705,
+                            50.28860992507
+                        ],
+                        [
+                            18.67738764705,
+                            50.28858092507
+                        ],
+                        [
+                            18.67743454705,
+                            50.28854322507
+                        ],
+                        [
+                            18.67749314705,
+                            50.28857222507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "id": "11954169404",
+                "type": "node",
+                "level": "0",
+                "door": "yes",
+                "room_entry": "14"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67713074680,
+                    50.28847302470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "1",
+                "door": "yes",
+                "room_entry": "116",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67682822705,
+                    50.28832260508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "0",
+                "door": "yes",
+                "room_entry": "9",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67682822680,
+                    50.28832260471
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "0",
+                "door": "yes",
+                "room_entry": "11",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67697739680,
+                    50.28839675470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "access": "yes",
+                "indoor": "room",
+                "room": "stairs",
+                "id": "1289165685",
+                "type": "way",
+                "level": "1",
+                "name": "Aula D"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67798660266,
+                            50.28855594081
+                        ],
+                        [
+                            18.67792923294,
+                            50.28852834661
+                        ],
+                        [
+                            18.67788695346,
+                            50.28850828790
+                        ],
+                        [
+                            18.67798413559,
+                            50.28842756848
+                        ],
+                        [
+                            18.67808407218,
+                            50.28847521416
+                        ],
+                        [
+                            18.67798660266,
+                            50.28855594081
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "11954169705",
+                "relations": "[]",
+                "type": "node",
+                "level": "1",
+                "door": "yes",
+                "room_entry": "aula d"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67792902073,
+                    50.28852849648
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "indoor": "room",
+                "type": "way",
+                "level": "1",
+                "id": "1289165678",
+                "name": "118",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67693810705,
+                            50.28844021507
+                        ],
+                        [
+                            18.67688303705,
+                            50.28841306507
+                        ],
+                        [
+                            18.67693081705,
+                            50.28837353507
+                        ],
+                        [
+                            18.67698602705,
+                            50.28840105507
+                        ],
+                        [
+                            18.67693810705,
+                            50.28844021507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "0",
+                "door": "yes",
+                "room_entry": "5",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67689687680,
+                    50.28834057470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "level": "1",
+                "door": "yes",
+                "id": "11954169570",
+                "room_entry": "aula a"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67730893329,
+                    50.28889385777
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "name": "18",
+                "indoor": "room",
+                "type": "way",
+                "level": "0",
+                "id": "1289165568",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67695164680,
+                            50.28884362470
+                        ],
+                        [
+                            18.67703684680,
+                            50.28877312470
+                        ],
+                        [
+                            18.67707184680,
+                            50.28879342470
+                        ],
+                        [
+                            18.67698774680,
+                            50.28886032469
+                        ],
+                        [
+                            18.67695164680,
+                            50.28884362470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "id": "11954169709",
+                "level": "0",
+                "door": "yes",
+                "room_entry": "bufet"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67725634680,
+                    50.28851662470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "access": "yes",
+                "indoor": "room",
+                "room": "stairs",
+                "type": "way",
+                "level": "1",
+                "id": "1289165645"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67721074705,
+                            50.28849432507
+                        ],
+                        [
+                            18.67715704705,
+                            50.28846802507
+                        ],
+                        [
+                            18.67720384705,
+                            50.28842892507
+                        ],
+                        [
+                            18.67725744705,
+                            50.28845552507
+                        ],
+                        [
+                            18.67721074705,
+                            50.28849432507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "id": "11954169569",
+                "type": "node",
+                "level": "0",
+                "door": "yes",
+                "room_entry": "aula b"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67716764680,
+                    50.28871342470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "1",
+                "door": "yes",
+                "room_entry": "117",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67688449705,
+                    50.28835056507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "access": "yes",
+                "id": "1289165681",
+                "indoor": "room",
+                "highway": "elevator",
+                "name": "Winda",
+                "type": "way",
+                "level": "0-9",
+                "room": "elevator"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67776844680,
+                            50.28853022470
+                        ],
+                        [
+                            18.67776804680,
+                            50.28853022470
+                        ],
+                        [
+                            18.67770674680,
+                            50.28850002470
+                        ],
+                        [
+                            18.67773084680,
+                            50.28848012470
+                        ],
+                        [
+                            18.67779224680,
+                            50.28851052470
+                        ],
+                        [
+                            18.67776844680,
+                            50.28853022470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "11954169382",
+                "relations": "[]",
+                "type": "node",
+                "level": "1",
+                "door": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67768017168,
+                    50.28841733470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "0",
+                "door": "yes",
+                "room_entry": "12",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67699596680,
+                    50.28840597470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "room": "office",
+                "indoor": "room",
+                "type": "way",
+                "level": "0",
+                "id": "1289165656",
+                "name": "20"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67790764680,
+                            50.28845102470
+                        ],
+                        [
+                            18.67789244680,
+                            50.28844352470
+                        ],
+                        [
+                            18.67788024680,
+                            50.28843722470
+                        ],
+                        [
+                            18.67784194680,
+                            50.28841802470
+                        ],
+                        [
+                            18.67789184680,
+                            50.28837592470
+                        ],
+                        [
+                            18.67793134680,
+                            50.28839542470
+                        ],
+                        [
+                            18.67794314680,
+                            50.28840122470
+                        ],
+                        [
+                            18.67795844680,
+                            50.28840882470
+                        ],
+                        [
+                            18.67795854680,
+                            50.28840882470
+                        ],
+                        [
+                            18.67790764680,
+                            50.28845102470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "level": "0",
+                "door": "yes",
+                "id": "11954169570",
+                "room_entry": "aula a"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67707724680,
+                    50.28878682470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "id": "11954169709",
+                "level": "1",
+                "door": "yes",
+                "room_entry": "104"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67725634705,
+                    50.28851662507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "id": "1289165646",
+                "access": "yes",
+                "indoor": "room",
+                "room": "restaurant",
+                "type": "way",
+                "level": "0",
+                "name": "Bufet AEI"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67727194680,
+                            50.28852422470
+                        ],
+                        [
+                            18.67725634680,
+                            50.28851662470
+                        ],
+                        [
+                            18.67721074680,
+                            50.28849432470
+                        ],
+                        [
+                            18.67725744680,
+                            50.28845552470
+                        ],
+                        [
+                            18.67731894680,
+                            50.28848602470
+                        ],
+                        [
+                            18.67727194680,
+                            50.28852422470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "107",
+                "indoor": "room",
+                "type": "way",
+                "level": "1",
+                "id": "1289165678",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67702408283,
+                            50.28840295575
+                        ],
+                        [
+                            18.67698358011,
+                            50.28838309518
+                        ],
+                        [
+                            18.67703186011,
+                            50.28834410513
+                        ],
+                        [
+                            18.67707303283,
+                            50.28836418576
+                        ],
+                        [
+                            18.67702408283,
+                            50.28840295575
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "indoor": "room",
+                "type": "way",
+                "level": "1",
+                "name": "119",
+                "id": "1289165678",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67699007705,
+                            50.28846586507
+                        ],
+                        [
+                            18.67693810705,
+                            50.28844021507
+                        ],
+                        [
+                            18.67698602705,
+                            50.28840105507
+                        ],
+                        [
+                            18.67703768705,
+                            50.28842666507
+                        ],
+                        [
+                            18.67699007705,
+                            50.28846586507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "id": "11954169469",
+                "level": "0",
+                "door": "yes",
+                "room_entry": "aula c"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67726924680,
+                    50.28862972470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "id": "11954169385",
+                "level": "1",
+                "door": "yes",
+                "room_entry": "wc woman"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67733234705,
+                    50.28855382507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "id": "11954169469",
+                "level": "1",
+                "door": "yes",
+                "room_entry": "aula c"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67747918040,
+                    50.28873564113
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "access": "yes",
+                "indoor": "room",
+                "name": "103",
+                "type": "way",
+                "level": "1",
+                "id": "1289165623",
+                "room": "toilets"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67727194705,
+                            50.28852422507
+                        ],
+                        [
+                            18.67731894705,
+                            50.28848602507
+                        ],
+                        [
+                            18.67735704705,
+                            50.28850482507
+                        ],
+                        [
+                            18.67731014705,
+                            50.28854292507
+                        ],
+                        [
+                            18.67729694705,
+                            50.28853652507
+                        ],
+                        [
+                            18.67727194705,
+                            50.28852422507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "id": "11954169710",
+                "level": "0",
+                "door": "yes",
+                "room_entry": "17"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67726194680,
+                    50.28853812470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "id": "11954169385",
+                "level": "0",
+                "door": "yes",
+                "room_entry": "wc woman"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67733234680,
+                    50.28855382470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "11954169370",
+                "relations": "[]",
+                "type": "node",
+                "level": "0",
+                "door": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67719534680,
+                    50.28869002470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "id": "1289165657",
+                "indoor": "level",
+                "type": "way",
+                "level": "1"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        18.67767654705,
+                        50.28832492508
+                    ],
+                    [
+                        18.67771854705,
+                        50.28829002508
+                    ],
+                    [
+                        18.67776144705,
+                        50.28831132508
+                    ],
+                    [
+                        18.67776154705,
+                        50.28831152508
+                    ],
+                    [
+                        18.67779185500,
+                        50.28832631943
+                    ],
+                    [
+                        18.67784854705,
+                        50.28835442507
+                    ],
+                    [
+                        18.67789184705,
+                        50.28837592507
+                    ],
+                    [
+                        18.67793134705,
+                        50.28839542507
+                    ],
+                    [
+                        18.67794314705,
+                        50.28840122507
+                    ],
+                    [
+                        18.67795844705,
+                        50.28840882507
+                    ],
+                    [
+                        18.67798844705,
+                        50.28838402507
+                    ],
+                    [
+                        18.67827184705,
+                        50.28852442507
+                    ],
+                    [
+                        18.67810104705,
+                        50.28866602507
+                    ],
+                    [
+                        18.67781764705,
+                        50.28852562507
+                    ],
+                    [
+                        18.67783654705,
+                        50.28850992507
+                    ],
+                    [
+                        18.67782144705,
+                        50.28850252507
+                    ],
+                    [
+                        18.67780934705,
+                        50.28849652507
+                    ],
+                    [
+                        18.67779234705,
+                        50.28851032507
+                    ],
+                    [
+                        18.67779224705,
+                        50.28851052507
+                    ],
+                    [
+                        18.67776844705,
+                        50.28853022507
+                    ],
+                    [
+                        18.67763694705,
+                        50.28863942507
+                    ],
+                    [
+                        18.67763384705,
+                        50.28864192507
+                    ],
+                    [
+                        18.67761324705,
+                        50.28865912507
+                    ],
+                    [
+                        18.67759034705,
+                        50.28867802507
+                    ],
+                    [
+                        18.67757074705,
+                        50.28869422507
+                    ],
+                    [
+                        18.67752734705,
+                        50.28873022507
+                    ],
+                    [
+                        18.67752554705,
+                        50.28873172507
+                    ],
+                    [
+                        18.67722624705,
+                        50.28897972506
+                    ],
+                    [
+                        18.67719684705,
+                        50.28896512506
+                    ],
+                    [
+                        18.67695164705,
+                        50.28884362507
+                    ],
+                    [
+                        18.67695054705,
+                        50.28884322507
+                    ],
+                    [
+                        18.67725074705,
+                        50.28859442507
+                    ],
+                    [
+                        18.67670004705,
+                        50.28832282508
+                    ],
+                    [
+                        18.67674834705,
+                        50.28828272508
+                    ],
+                    [
+                        18.67674854705,
+                        50.28828272508
+                    ],
+                    [
+                        18.67680834705,
+                        50.28823312508
+                    ],
+                    [
+                        18.67699274705,
+                        50.28832452508
+                    ],
+                    [
+                        18.67701224705,
+                        50.28833412508
+                    ],
+                    [
+                        18.67704404705,
+                        50.28835002507
+                    ],
+                    [
+                        18.67707224705,
+                        50.28836382507
+                    ],
+                    [
+                        18.67709804705,
+                        50.28837672507
+                    ],
+                    [
+                        18.67720384705,
+                        50.28842892507
+                    ],
+                    [
+                        18.67725744705,
+                        50.28845552507
+                    ],
+                    [
+                        18.67731894705,
+                        50.28848602507
+                    ],
+                    [
+                        18.67735704705,
+                        50.28850482507
+                    ],
+                    [
+                        18.67739624705,
+                        50.28852422507
+                    ],
+                    [
+                        18.67743454705,
+                        50.28854322507
+                    ],
+                    [
+                        18.67749314705,
+                        50.28857222507
+                    ],
+                    [
+                        18.67766854705,
+                        50.28842712507
+                    ],
+                    [
+                        18.67766864705,
+                        50.28842682507
+                    ],
+                    [
+                        18.67759664705,
+                        50.28839062507
+                    ],
+                    [
+                        18.67764194705,
+                        50.28835362507
+                    ],
+                    [
+                        18.67767654705,
+                        50.28832492508
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "1289165649",
+                "relations": "[]",
+                "access": "yes",
+                "name": "Xero",
+                "indoor": "room",
+                "type": "way",
+                "level": "0",
+                "room": "shop"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67757604680,
+                            50.28860922470
+                        ],
+                        [
+                            18.67759794680,
+                            50.28859092470
+                        ],
+                        [
+                            18.67770674680,
+                            50.28850002470
+                        ],
+                        [
+                            18.67776804680,
+                            50.28853022470
+                        ],
+                        [
+                            18.67763694680,
+                            50.28863942470
+                        ],
+                        [
+                            18.67757604680,
+                            50.28860922470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "105",
+                "indoor": "room",
+                "type": "way",
+                "level": "1",
+                "id": "1289165678",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67710304705,
+                            50.28844152507
+                        ],
+                        [
+                            18.67706384535,
+                            50.28842242008
+                        ],
+                        [
+                            18.67711208035,
+                            50.28838368878
+                        ],
+                        [
+                            18.67715091182,
+                            50.28840278342
+                        ],
+                        [
+                            18.67710304705,
+                            50.28844152507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "id": "11954169669",
+                "type": "node",
+                "level": "0",
+                "door": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67709454680,
+                    50.28877302470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "access": "yes",
+                "indoor": "room",
+                "id": "1289165651",
+                "type": "way",
+                "level": "0",
+                "room": "toilets"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67766864680,
+                            50.28842692470
+                        ],
+                        [
+                            18.67766864680,
+                            50.28842682470
+                        ],
+                        [
+                            18.67759664680,
+                            50.28839112470
+                        ],
+                        [
+                            18.67764194680,
+                            50.28835362470
+                        ],
+                        [
+                            18.67764664680,
+                            50.28834972470
+                        ],
+                        [
+                            18.67767394680,
+                            50.28836362470
+                        ],
+                        [
+                            18.67770454680,
+                            50.28837902470
+                        ],
+                        [
+                            18.67771874680,
+                            50.28838622470
+                        ],
+                        [
+                            18.67766864680,
+                            50.28842692470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "level": "0",
+                "door": "yes",
+                "id": "11954169708",
+                "room_entry": "wc disabled"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67729694680,
+                    50.28853652470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "access": "yes",
+                "indoor": "room",
+                "name": "toilet for woman",
+                "type": "way",
+                "id": "1289165622",
+                "level": "0",
+                "room": "toilets"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67734874680,
+                            50.28856182470
+                        ],
+                        [
+                            18.67733234680,
+                            50.28855382470
+                        ],
+                        [
+                            18.67731014680,
+                            50.28854292470
+                        ],
+                        [
+                            18.67735704680,
+                            50.28850482470
+                        ],
+                        [
+                            18.67739624680,
+                            50.28852422470
+                        ],
+                        [
+                            18.67734874680,
+                            50.28856182470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "id": "11954169403",
+                "level": "1",
+                "door": "yes",
+                "room_entry": "15"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67718004705,
+                    50.28849722507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "access": "yes",
+                "indoor": "room",
+                "room": "stairs",
+                "type": "way",
+                "level": "0",
+                "id": "1289165645"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67721074680,
+                            50.28849432470
+                        ],
+                        [
+                            18.67715704680,
+                            50.28846802470
+                        ],
+                        [
+                            18.67720384680,
+                            50.28842892470
+                        ],
+                        [
+                            18.67725744680,
+                            50.28845552470
+                        ],
+                        [
+                            18.67721074680,
+                            50.28849432470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "109",
+                "indoor": "room",
+                "type": "way",
+                "level": "1",
+                "id": "1289165678",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67694091705,
+                            50.28836222723
+                        ],
+                        [
+                            18.67688700705,
+                            50.28833575508
+                        ],
+                        [
+                            18.67693525705,
+                            50.28829599508
+                        ],
+                        [
+                            18.67698989699,
+                            50.28832317853
+                        ],
+                        [
+                            18.67694091705,
+                            50.28836222723
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "level": "0",
+                "door": "yes",
+                "id": "11954169670",
+                "room_entry": "18"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67705444680,
+                    50.28878262470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "addr:postcode": "44-100",
+                "entrance": "yes;main",
+                "type": "node",
+                "width": "4",
+                "addr:city": "Gliwice",
+                "addr:street": "Akademicka",
+                "wheelchair": "yes",
+                "addr:housenumber": "16",
+                "id": "1946402900;11954169369",
+                "level": "1",
+                "door": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67757074705,
+                    50.28869422507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "addr:postcode": "44-100",
+                "entrance": "yes;main",
+                "type": "node",
+                "width": "4",
+                "addr:city": "Gliwice",
+                "addr:street": "Akademicka",
+                "wheelchair": "yes",
+                "addr:housenumber": "16",
+                "id": "1946402900;11954169369",
+                "level": "0",
+                "door": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67757074680,
+                    50.28869422470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "room": "class",
+                "indoor": "room",
+                "type": "way",
+                "id": "1289165655",
+                "level": "1",
+                "name": "129a"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67784194705,
+                            50.28841802507
+                        ],
+                        [
+                            18.67782694705,
+                            50.28841052507
+                        ],
+                        [
+                            18.67779834705,
+                            50.28839632507
+                        ],
+                        [
+                            18.67784854705,
+                            50.28835442507
+                        ],
+                        [
+                            18.67789184705,
+                            50.28837592507
+                        ],
+                        [
+                            18.67784194705,
+                            50.28841802507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "level": "0",
+                "id": "11954169474",
+                "door": "yes",
+                "room_entry": "4"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67708534680,
+                    50.28843292470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "13",
+                "indoor": "room",
+                "type": "way",
+                "level": "0",
+                "id": "1289165678",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67702779680,
+                            50.28848450470
+                        ],
+                        [
+                            18.67699007680,
+                            50.28846586470
+                        ],
+                        [
+                            18.67703768680,
+                            50.28842666470
+                        ],
+                        [
+                            18.67707598680,
+                            50.28844562470
+                        ],
+                        [
+                            18.67702779680,
+                            50.28848450470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "access": "yes",
+                "indoor": "room",
+                "room": "stairs",
+                "id": "1289165685",
+                "type": "way",
+                "level": "1",
+                "name": "Aula E"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67811305190,
+                            50.28861635086
+                        ],
+                        [
+                            18.67802390955,
+                            50.28857387415
+                        ],
+                        [
+                            18.67803062326,
+                            50.28856824480
+                        ],
+                        [
+                            18.67812063038,
+                            50.28849313255
+                        ],
+                        [
+                            18.67821071409,
+                            50.28853588414
+                        ],
+                        [
+                            18.67811305190,
+                            50.28861635086
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "indoor": "room",
+                "type": "way",
+                "level": "0",
+                "id": "1289165686"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67781764680,
+                            50.28852562470
+                        ],
+                        [
+                            18.67783654680,
+                            50.28850992470
+                        ],
+                        [
+                            18.67786344680,
+                            50.28848762470
+                        ],
+                        [
+                            18.67790764680,
+                            50.28845102470
+                        ],
+                        [
+                            18.67795854680,
+                            50.28840882470
+                        ],
+                        [
+                            18.67798844680,
+                            50.28838402470
+                        ],
+                        [
+                            18.67827374680,
+                            50.28852432470
+                        ],
+                        [
+                            18.67810104680,
+                            50.28866602470
+                        ],
+                        [
+                            18.67781764680,
+                            50.28852562470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "indoor": "room",
+                "type": "way",
+                "level": "0",
+                "id": "1289165678",
+                "name": "11",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67693810680,
+                            50.28844021470
+                        ],
+                        [
+                            18.67688303680,
+                            50.28841306470
+                        ],
+                        [
+                            18.67693081680,
+                            50.28837353470
+                        ],
+                        [
+                            18.67698602680,
+                            50.28840105470
+                        ],
+                        [
+                            18.67693810680,
+                            50.28844021470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "4",
+                "indoor": "room",
+                "type": "way",
+                "level": "0",
+                "id": "1289165678",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67710289680,
+                            50.28844155470
+                        ],
+                        [
+                            18.67699510680,
+                            50.28838874470
+                        ],
+                        [
+                            18.67704405680,
+                            50.28834997470
+                        ],
+                        [
+                            18.67715117680,
+                            50.28840256470
+                        ],
+                        [
+                            18.67710289680,
+                            50.28844155470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "id": "11954169770",
+                "level": "1",
+                "door": "yes",
+                "room_entry": "131"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67773110213,
+                    50.28837674507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "id": "11954169569",
+                "type": "node",
+                "level": "1",
+                "door": "yes",
+                "room_entry": "aula b"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67737264099,
+                    50.28882325826
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "106",
+                "indoor": "room",
+                "type": "way",
+                "level": "1",
+                "id": "1289165678",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67706384535,
+                            50.28842242008
+                        ],
+                        [
+                            18.67702408283,
+                            50.28840295575
+                        ],
+                        [
+                            18.67707303283,
+                            50.28836418576
+                        ],
+                        [
+                            18.67711208035,
+                            50.28838368878
+                        ],
+                        [
+                            18.67706384535,
+                            50.28842242008
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "11954169705",
+                "relations": "[]",
+                "type": "node",
+                "level": "0",
+                "door": "yes",
+                "room_entry": "20"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67788024680,
+                    50.28843722470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "id": "11954169404",
+                "type": "node",
+                "level": "1",
+                "door": "yes",
+                "room_entry": "121"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67713074705,
+                    50.28847302507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "level": "1",
+                "door": "yes",
+                "id": "11954169707",
+                "room_entry": "wc man"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67737444705,
+                    50.28857442507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "id": "1289165569",
+                "indoor": "room",
+                "name": "Aula A",
+                "room": "lecture",
+                "type": "way",
+                "level": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67698708747,
+                            50.28886114493
+                        ],
+                        [
+                            18.67707184705,
+                            50.28879342507
+                        ],
+                        [
+                            18.67708468714,
+                            50.28878281131
+                        ],
+                        [
+                            18.67732130669,
+                            50.28890070314
+                        ],
+                        [
+                            18.67722624237,
+                            50.28897972653
+                        ],
+                        [
+                            18.67698708747,
+                            50.28886114493
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "level": "1",
+                "door": "yes",
+                "id": "11954169708",
+                "room_entry": "103"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67729694705,
+                    50.28853652507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "access": "yes",
+                "indoor": "room",
+                "name": "toilet for man",
+                "type": "way",
+                "level": "1",
+                "room": "toilets",
+                "id": "1289165620"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67738764705,
+                            50.28858092507
+                        ],
+                        [
+                            18.67737444705,
+                            50.28857442507
+                        ],
+                        [
+                            18.67734874705,
+                            50.28856182507
+                        ],
+                        [
+                            18.67739624705,
+                            50.28852422507
+                        ],
+                        [
+                            18.67743454705,
+                            50.28854322507
+                        ],
+                        [
+                            18.67738764705,
+                            50.28858092507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "access": "yes",
+                "indoor": "room",
+                "room": "stairs",
+                "id": "1289165685",
+                "type": "way",
+                "level": "0"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67783654680,
+                            50.28850992470
+                        ],
+                        [
+                            18.67782144680,
+                            50.28850252470
+                        ],
+                        [
+                            18.67780934680,
+                            50.28849652470
+                        ],
+                        [
+                            18.67781574680,
+                            50.28849102470
+                        ],
+                        [
+                            18.67781584680,
+                            50.28849102470
+                        ],
+                        [
+                            18.67783584680,
+                            50.28847432470
+                        ],
+                        [
+                            18.67786344680,
+                            50.28848762470
+                        ],
+                        [
+                            18.67783654680,
+                            50.28850992470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "0",
+                "door": "yes",
+                "room_entry": "6",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67684170680,
+                    50.28831339471
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "indoor": "room",
+                "name": "110",
+                "type": "way",
+                "level": "1",
+                "id": "1289165678",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67688697705,
+                            50.28833572507
+                        ],
+                        [
+                            18.67683182705,
+                            50.28830852508
+                        ],
+                        [
+                            18.67688010705,
+                            50.28826867508
+                        ],
+                        [
+                            18.67693525705,
+                            50.28829599508
+                        ],
+                        [
+                            18.67688697705,
+                            50.28833572507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "11954169381",
+                "relations": "[]",
+                "type": "node",
+                "level": "0",
+                "door": "yes",
+                "room_entry": "21"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67782694680,
+                    50.28841052470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "7",
+                "indoor": "room",
+                "type": "way",
+                "level": "0",
+                "id": "1289165678",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67683182680,
+                            50.28830852471
+                        ],
+                        [
+                            18.67679762680,
+                            50.28829202471
+                        ],
+                        [
+                            18.67684611680,
+                            50.28825183471
+                        ],
+                        [
+                            18.67688010680,
+                            50.28826867471
+                        ],
+                        [
+                            18.67683182680,
+                            50.28830852471
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "id": "1289165647",
+                "access": "yes",
+                "indoor": "room",
+                "highway": "elevator",
+                "name": "Winda",
+                "type": "way",
+                "level": "0-9",
+                "room": "elevator"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67758904680,
+                            50.28867862470
+                        ],
+                        [
+                            18.67752974680,
+                            50.28864782470
+                        ],
+                        [
+                            18.67755214680,
+                            50.28862912470
+                        ],
+                        [
+                            18.67761324680,
+                            50.28865912470
+                        ],
+                        [
+                            18.67758904680,
+                            50.28867862470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "level": "0",
+                "door": "yes",
+                "id": "11954169707",
+                "room_entry": "wc man"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67737444680,
+                    50.28857442470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "1",
+                "door": "yes",
+                "room_entry": "118",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67697739705,
+                    50.28839675507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "indoor": "room",
+                "id": "1289165572",
+                "type": "way",
+                "room": "storage",
+                "level": "0"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67719684680,
+                            50.28896512469
+                        ],
+                        [
+                            18.67729304680,
+                            50.28888692469
+                        ],
+                        [
+                            18.67738864680,
+                            50.28880922470
+                        ],
+                        [
+                            18.67750144680,
+                            50.28871732470
+                        ],
+                        [
+                            18.67752734680,
+                            50.28873022470
+                        ],
+                        [
+                            18.67752554680,
+                            50.28873172470
+                        ],
+                        [
+                            18.67722624680,
+                            50.28897972469
+                        ],
+                        [
+                            18.67719684680,
+                            50.28896512469
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "1",
+                "door": "yes",
+                "room_entry": "114",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67679114705,
+                    50.28829712508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "name": "18",
+                "indoor": "room",
+                "type": "way",
+                "level": "1",
+                "id": "1289165568",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67695164705,
+                            50.28884362507
+                        ],
+                        [
+                            18.67725074705,
+                            50.28859442507
+                        ],
+                        [
+                            18.67728974722,
+                            50.28861378990
+                        ],
+                        [
+                            18.67707184705,
+                            50.28879342507
+                        ],
+                        [
+                            18.67698709468,
+                            50.28886114432
+                        ],
+                        [
+                            18.67695164705,
+                            50.28884362507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "1",
+                "door": "yes",
+                "room_entry": "110",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67684170705,
+                    50.28831339508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "name": "serwer",
+                "indoor": "room",
+                "id": "1289165630",
+                "type": "way",
+                "level": "1",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67714725691,
+                            50.28854338012
+                        ],
+                        [
+                            18.67709406692,
+                            50.28851713761
+                        ],
+                        [
+                            18.67714094705,
+                            50.28847782507
+                        ],
+                        [
+                            18.67718004705,
+                            50.28849722507
+                        ],
+                        [
+                            18.67719404705,
+                            50.28850422507
+                        ],
+                        [
+                            18.67714725691,
+                            50.28854338012
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "indoor": "room",
+                "type": "way",
+                "name": "7a",
+                "level": "0",
+                "id": "1289165678",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67678570680,
+                            50.28830156471
+                        ],
+                        [
+                            18.67674850680,
+                            50.28828271471
+                        ],
+                        [
+                            18.67680835680,
+                            50.28823311471
+                        ],
+                        [
+                            18.67684611680,
+                            50.28825185471
+                        ],
+                        [
+                            18.67678570680,
+                            50.28830156471
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "122",
+                "relations": "[]",
+                "id": "1289165629",
+                "indoor": "room",
+                "type": "way",
+                "level": "1",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67720030190,
+                            50.28856956391
+                        ],
+                        [
+                            18.67714725691,
+                            50.28854338012
+                        ],
+                        [
+                            18.67719404705,
+                            50.28850422507
+                        ],
+                        [
+                            18.67723354705,
+                            50.28852392507
+                        ],
+                        [
+                            18.67724714705,
+                            50.28853072507
+                        ],
+                        [
+                            18.67720030190,
+                            50.28856956391
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "room": "office",
+                "indoor": "room",
+                "type": "way",
+                "level": "0",
+                "name": "23",
+                "id": "1289165653"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67775414680,
+                            50.28837422470
+                        ],
+                        [
+                            18.67773804680,
+                            50.28836602470
+                        ],
+                        [
+                            18.67771124680,
+                            50.28835252470
+                        ],
+                        [
+                            18.67776154680,
+                            50.28831152471
+                        ],
+                        [
+                            18.67780444680,
+                            50.28833282471
+                        ],
+                        [
+                            18.67775414680,
+                            50.28837422470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "id": "1289165657",
+                "indoor": "level",
+                "type": "way",
+                "level": "0"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        18.67767654680,
+                        50.28832492471
+                    ],
+                    [
+                        18.67771854680,
+                        50.28829002471
+                    ],
+                    [
+                        18.67776144680,
+                        50.28831132471
+                    ],
+                    [
+                        18.67776154680,
+                        50.28831152471
+                    ],
+                    [
+                        18.67780444680,
+                        50.28833282471
+                    ],
+                    [
+                        18.67784854680,
+                        50.28835442470
+                    ],
+                    [
+                        18.67789184680,
+                        50.28837592470
+                    ],
+                    [
+                        18.67793134680,
+                        50.28839542470
+                    ],
+                    [
+                        18.67794314680,
+                        50.28840122470
+                    ],
+                    [
+                        18.67795844680,
+                        50.28840882470
+                    ],
+                    [
+                        18.67798844680,
+                        50.28838402470
+                    ],
+                    [
+                        18.67827184680,
+                        50.28852442470
+                    ],
+                    [
+                        18.67810104680,
+                        50.28866602470
+                    ],
+                    [
+                        18.67781764680,
+                        50.28852562470
+                    ],
+                    [
+                        18.67783654680,
+                        50.28850992470
+                    ],
+                    [
+                        18.67782144680,
+                        50.28850252470
+                    ],
+                    [
+                        18.67780934680,
+                        50.28849652470
+                    ],
+                    [
+                        18.67779234680,
+                        50.28851032470
+                    ],
+                    [
+                        18.67779224680,
+                        50.28851052470
+                    ],
+                    [
+                        18.67776844680,
+                        50.28853022470
+                    ],
+                    [
+                        18.67763694680,
+                        50.28863942470
+                    ],
+                    [
+                        18.67763384680,
+                        50.28864192470
+                    ],
+                    [
+                        18.67761324680,
+                        50.28865912470
+                    ],
+                    [
+                        18.67759034680,
+                        50.28867802470
+                    ],
+                    [
+                        18.67757074680,
+                        50.28869422470
+                    ],
+                    [
+                        18.67752734680,
+                        50.28873022470
+                    ],
+                    [
+                        18.67752554680,
+                        50.28873172470
+                    ],
+                    [
+                        18.67722624680,
+                        50.28897972469
+                    ],
+                    [
+                        18.67719684680,
+                        50.28896512469
+                    ],
+                    [
+                        18.67695164680,
+                        50.28884362470
+                    ],
+                    [
+                        18.67695054680,
+                        50.28884322470
+                    ],
+                    [
+                        18.67725074680,
+                        50.28859442470
+                    ],
+                    [
+                        18.67670004680,
+                        50.28832282471
+                    ],
+                    [
+                        18.67674834680,
+                        50.28828272471
+                    ],
+                    [
+                        18.67674854680,
+                        50.28828272471
+                    ],
+                    [
+                        18.67680834680,
+                        50.28823312471
+                    ],
+                    [
+                        18.67699274680,
+                        50.28832452471
+                    ],
+                    [
+                        18.67701224680,
+                        50.28833412471
+                    ],
+                    [
+                        18.67704404680,
+                        50.28835002470
+                    ],
+                    [
+                        18.67707224680,
+                        50.28836382470
+                    ],
+                    [
+                        18.67709804680,
+                        50.28837672470
+                    ],
+                    [
+                        18.67720384680,
+                        50.28842892470
+                    ],
+                    [
+                        18.67725744680,
+                        50.28845552470
+                    ],
+                    [
+                        18.67731894680,
+                        50.28848602470
+                    ],
+                    [
+                        18.67735704680,
+                        50.28850482470
+                    ],
+                    [
+                        18.67739624680,
+                        50.28852422470
+                    ],
+                    [
+                        18.67743454680,
+                        50.28854322470
+                    ],
+                    [
+                        18.67749314680,
+                        50.28857222470
+                    ],
+                    [
+                        18.67766854680,
+                        50.28842712470
+                    ],
+                    [
+                        18.67766864680,
+                        50.28842682470
+                    ],
+                    [
+                        18.67759664680,
+                        50.28839062470
+                    ],
+                    [
+                        18.67764194680,
+                        50.28835362470
+                    ],
+                    [
+                        18.67764664680,
+                        50.28834972470
+                    ],
+                    [
+                        18.67766884680,
+                        50.28833132471
+                    ],
+                    [
+                        18.67767654680,
+                        50.28832492471
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "0",
+                "door": "yes",
+                "room_entry": "7a",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67679114680,
+                    50.28829712471
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "id": "11954169380",
+                "type": "node",
+                "level": "0",
+                "door": "yes",
+                "room_entry": "xero"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67759794680,
+                    50.28859092470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "indoor": "room",
+                "name": "6",
+                "type": "way",
+                "level": "0",
+                "id": "1289165678",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67688697680,
+                            50.28833572470
+                        ],
+                        [
+                            18.67683182680,
+                            50.28830852471
+                        ],
+                        [
+                            18.67688010680,
+                            50.28826867471
+                        ],
+                        [
+                            18.67693525680,
+                            50.28829599471
+                        ],
+                        [
+                            18.67688697680,
+                            50.28833572470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "11954169370",
+                "relations": "[]",
+                "type": "node",
+                "level": "1",
+                "door": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67740863403,
+                    50.28879313270
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "0",
+                "door": "yes",
+                "room_entry": "13",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67704587680,
+                    50.28843071470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "11954169705",
+                "relations": "[]",
+                "type": "node",
+                "level": "1",
+                "door": "yes",
+                "room_entry": "129"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67788024705,
+                    50.28843722507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "1289165649",
+                "relations": "[]",
+                "access": "yes",
+                "name": "124",
+                "indoor": "room",
+                "type": "way",
+                "level": "1",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67757604705,
+                            50.28860922507
+                        ],
+                        [
+                            18.67759794705,
+                            50.28859092507
+                        ],
+                        [
+                            18.67770674705,
+                            50.28850002507
+                        ],
+                        [
+                            18.67776804705,
+                            50.28853022507
+                        ],
+                        [
+                            18.67763694705,
+                            50.28863942507
+                        ],
+                        [
+                            18.67757604705,
+                            50.28860922507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "level": "1",
+                "id": "11954169474",
+                "door": "yes",
+                "room_entry": "105"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67708534705,
+                    50.28843292507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "indoor": "room",
+                "type": "way",
+                "level": "1",
+                "id": "1289165678",
+                "name": "117",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67688303705,
+                            50.28841306507
+                        ],
+                        [
+                            18.67682763705,
+                            50.28838574507
+                        ],
+                        [
+                            18.67687574705,
+                            50.28834622507
+                        ],
+                        [
+                            18.67693089705,
+                            50.28837364507
+                        ],
+                        [
+                            18.67688303705,
+                            50.28841306507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "id": "1289165570",
+                "indoor": "room",
+                "room": "lecture",
+                "type": "way",
+                "name": "Aula B",
+                "level": "0"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67708314680,
+                            50.28878232470
+                        ],
+                        [
+                            18.67709454680,
+                            50.28877302470
+                        ],
+                        [
+                            18.67716764680,
+                            50.28871342470
+                        ],
+                        [
+                            18.67717834680,
+                            50.28870442470
+                        ],
+                        [
+                            18.67738824680,
+                            50.28880892470
+                        ],
+                        [
+                            18.67729304680,
+                            50.28888692469
+                        ],
+                        [
+                            18.67708314680,
+                            50.28878232470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "11954169705",
+                "relations": "[]",
+                "type": "node",
+                "level": "1",
+                "door": "yes",
+                "room_entry": "aula e"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67803038708,
+                    50.28857756621
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "room": "class",
+                "indoor": "room",
+                "type": "way",
+                "level": "1",
+                "name": "130",
+                "id": "1289165654"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67779834705,
+                            50.28839632507
+                        ],
+                        [
+                            18.67778144705,
+                            50.28838782507
+                        ],
+                        [
+                            18.67774155500,
+                            50.28836771943
+                        ],
+                        [
+                            18.67779185500,
+                            50.28832631943
+                        ],
+                        [
+                            18.67784854705,
+                            50.28835442507
+                        ],
+                        [
+                            18.67779834705,
+                            50.28839632507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "name": "24",
+                "room": "office",
+                "indoor": "room",
+                "id": "1289165652",
+                "type": "way",
+                "level": "0"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67771094680,
+                            50.28835242470
+                        ],
+                        [
+                            18.67769564680,
+                            50.28834482470
+                        ],
+                        [
+                            18.67766884680,
+                            50.28833132471
+                        ],
+                        [
+                            18.67767654680,
+                            50.28832492471
+                        ],
+                        [
+                            18.67771854680,
+                            50.28829002471
+                        ],
+                        [
+                            18.67776144680,
+                            50.28831132471
+                        ],
+                        [
+                            18.67771094680,
+                            50.28835242470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "115",
+                "indoor": "room",
+                "type": "way",
+                "level": "1",
+                "id": "1289165678",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67677247705,
+                            50.28835854507
+                        ],
+                        [
+                            18.67670005705,
+                            50.28832287508
+                        ],
+                        [
+                            18.67674833705,
+                            50.28828271508
+                        ],
+                        [
+                            18.67682058705,
+                            50.28831880508
+                        ],
+                        [
+                            18.67677247705,
+                            50.28835854507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "room": "office",
+                "indoor": "room",
+                "type": "way",
+                "id": "1289165655",
+                "level": "0",
+                "name": "21"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67784194680,
+                            50.28841802470
+                        ],
+                        [
+                            18.67782694680,
+                            50.28841052470
+                        ],
+                        [
+                            18.67779834680,
+                            50.28839632470
+                        ],
+                        [
+                            18.67784854680,
+                            50.28835442470
+                        ],
+                        [
+                            18.67789184680,
+                            50.28837592470
+                        ],
+                        [
+                            18.67784194680,
+                            50.28841802470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "level": "0",
+                "door": "yes",
+                "id": "11954169383",
+                "room_entry": "23"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67773804680,
+                    50.28836602470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "id": "11954169710",
+                "level": "1",
+                "door": "yes",
+                "room_entry": "123"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67726194705,
+                    50.28853812507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "16",
+                "relations": "[]",
+                "id": "1289165629",
+                "indoor": "room",
+                "type": "way",
+                "level": "0",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67719944680,
+                            50.28857022470
+                        ],
+                        [
+                            18.67714644680,
+                            50.28854372470
+                        ],
+                        [
+                            18.67719404680,
+                            50.28850422470
+                        ],
+                        [
+                            18.67723354680,
+                            50.28852392470
+                        ],
+                        [
+                            18.67724714680,
+                            50.28853072470
+                        ],
+                        [
+                            18.67719944680,
+                            50.28857022470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "0",
+                "door": "yes",
+                "room_entry": "8",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67680934680,
+                    50.28831312471
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "1",
+                "door": "yes",
+                "room_entry": "120",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67704587705,
+                    50.28843071507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "120",
+                "indoor": "room",
+                "type": "way",
+                "level": "1",
+                "id": "1289165678",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67702806701,
+                            50.28848450507
+                        ],
+                        [
+                            18.67699007705,
+                            50.28846586507
+                        ],
+                        [
+                            18.67703768705,
+                            50.28842666507
+                        ],
+                        [
+                            18.67707598705,
+                            50.28844562507
+                        ],
+                        [
+                            18.67702806701,
+                            50.28848450507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "1",
+                "door": "yes",
+                "room_entry": "109",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67689687705,
+                    50.28834057507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "access": "yes",
+                "indoor": "room",
+                "id": "1289165651",
+                "type": "way",
+                "level": "1",
+                "room": "toilets",
+                "name": "toilets"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67766864705,
+                            50.28842692507
+                        ],
+                        [
+                            18.67766864705,
+                            50.28842682507
+                        ],
+                        [
+                            18.67759664705,
+                            50.28839112507
+                        ],
+                        [
+                            18.67764194705,
+                            50.28835362507
+                        ],
+                        [
+                            18.67764660795,
+                            50.28834983837
+                        ],
+                        [
+                            18.67771874705,
+                            50.28838622507
+                        ],
+                        [
+                            18.67766864705,
+                            50.28842692507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "id": "1289165619",
+                "access": "yes",
+                "indoor": "room",
+                "room": "stairs",
+                "type": "way",
+                "level": "0"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67749314680,
+                            50.28857222470
+                        ],
+                        [
+                            18.67744684680,
+                            50.28860992470
+                        ],
+                        [
+                            18.67738764680,
+                            50.28858092470
+                        ],
+                        [
+                            18.67743454680,
+                            50.28854322470
+                        ],
+                        [
+                            18.67749314680,
+                            50.28857222470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "id": "1289165571",
+                "indoor": "room",
+                "name": "Aula C",
+                "room": "lecture",
+                "type": "way",
+                "level": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67728974722,
+                            50.28861378990
+                        ],
+                        [
+                            18.67750144705,
+                            50.28871732507
+                        ],
+                        [
+                            18.67738864705,
+                            50.28880922507
+                        ],
+                        [
+                            18.67738824705,
+                            50.28880892507
+                        ],
+                        [
+                            18.67717824401,
+                            50.28870445150
+                        ],
+                        [
+                            18.67728974722,
+                            50.28861378990
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "access": "yes",
+                "indoor": "room",
+                "name": "toilet for disabled people",
+                "type": "way",
+                "level": "0",
+                "id": "1289165623",
+                "room": "toilets"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67727194680,
+                            50.28852422470
+                        ],
+                        [
+                            18.67731894680,
+                            50.28848602470
+                        ],
+                        [
+                            18.67735704680,
+                            50.28850482470
+                        ],
+                        [
+                            18.67731014680,
+                            50.28854292470
+                        ],
+                        [
+                            18.67729694680,
+                            50.28853652470
+                        ],
+                        [
+                            18.67727194680,
+                            50.28852422470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "id": "1289165624",
+                "indoor": "room",
+                "name": "123",
+                "type": "way",
+                "level": "1",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67725074705,
+                            50.28859442507
+                        ],
+                        [
+                            18.67720030190,
+                            50.28856956391
+                        ],
+                        [
+                            18.67724714705,
+                            50.28853072507
+                        ],
+                        [
+                            18.67726194705,
+                            50.28853812507
+                        ],
+                        [
+                            18.67729824705,
+                            50.28855622507
+                        ],
+                        [
+                            18.67725074705,
+                            50.28859442507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "0",
+                "door": "yes",
+                "room_entry": "7",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67682310680,
+                    50.28830432471
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "access": "yes",
+                "indoor": "room",
+                "name": "toilet for man",
+                "type": "way",
+                "level": "0",
+                "room": "toilets",
+                "id": "1289165620"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67738764680,
+                            50.28858092470
+                        ],
+                        [
+                            18.67737444680,
+                            50.28857442470
+                        ],
+                        [
+                            18.67734874680,
+                            50.28856182470
+                        ],
+                        [
+                            18.67739624680,
+                            50.28852422470
+                        ],
+                        [
+                            18.67743454680,
+                            50.28854322470
+                        ],
+                        [
+                            18.67738764680,
+                            50.28858092470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "11954169706",
+                "relations": "[]",
+                "type": "node",
+                "level": "0",
+                "door": "yes",
+                "room_entry": "wc"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67770454680,
+                    50.28837902470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "id": "11954169380",
+                "type": "node",
+                "level": "1",
+                "door": "yes",
+                "room_entry": "124"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67759794705,
+                    50.28859092507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "room": "office",
+                "indoor": "room",
+                "type": "way",
+                "level": "0",
+                "name": "22",
+                "id": "1289165654"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67779834680,
+                            50.28839632470
+                        ],
+                        [
+                            18.67778144680,
+                            50.28838782470
+                        ],
+                        [
+                            18.67775414680,
+                            50.28837422470
+                        ],
+                        [
+                            18.67780444680,
+                            50.28833282471
+                        ],
+                        [
+                            18.67784854680,
+                            50.28835442470
+                        ],
+                        [
+                            18.67779834680,
+                            50.28839632470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "11954169706",
+                "relations": "[]",
+                "type": "node",
+                "level": "1",
+                "door": "yes",
+                "room_entry": "wc"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67770950629,
+                    50.28839353278
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "1",
+                "door": "yes",
+                "room_entry": "106",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67703589019,
+                    50.28840859583
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "1",
+                "door": "yes",
+                "room_entry": "115",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67680934705,
+                    50.28831312508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "8",
+                "indoor": "room",
+                "type": "way",
+                "level": "0",
+                "id": "1289165678",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67677247680,
+                            50.28835854470
+                        ],
+                        [
+                            18.67670005680,
+                            50.28832287471
+                        ],
+                        [
+                            18.67674833680,
+                            50.28828271471
+                        ],
+                        [
+                            18.67682058680,
+                            50.28831880471
+                        ],
+                        [
+                            18.67677247680,
+                            50.28835854470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "access": "yes",
+                "indoor": "room",
+                "room": "stairs",
+                "id": "1289165685",
+                "type": "way",
+                "level": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67783654705,
+                            50.28850992507
+                        ],
+                        [
+                            18.67782144705,
+                            50.28850252507
+                        ],
+                        [
+                            18.67780934705,
+                            50.28849652507
+                        ],
+                        [
+                            18.67781574705,
+                            50.28849102507
+                        ],
+                        [
+                            18.67781584705,
+                            50.28849102507
+                        ],
+                        [
+                            18.67783584705,
+                            50.28847432507
+                        ],
+                        [
+                            18.67786344705,
+                            50.28848762507
+                        ],
+                        [
+                            18.67783654705,
+                            50.28850992507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "indoor": "room",
+                "type": "way",
+                "level": "0",
+                "name": "12",
+                "id": "1289165678",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67699007680,
+                            50.28846586470
+                        ],
+                        [
+                            18.67693810680,
+                            50.28844021470
+                        ],
+                        [
+                            18.67698602680,
+                            50.28840105470
+                        ],
+                        [
+                            18.67703768680,
+                            50.28842666470
+                        ],
+                        [
+                            18.67699007680,
+                            50.28846586470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "access": "yes",
+                "indoor": "corridor",
+                "type": "way",
+                "level": "1",
+                "id": "1289165621"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67759034705,
+                            50.28867802507
+                        ],
+                        [
+                            18.67757074705,
+                            50.28869422507
+                        ],
+                        [
+                            18.67752734705,
+                            50.28873022507
+                        ],
+                        [
+                            18.67732140713,
+                            50.28890081424
+                        ],
+                        [
+                            18.67729322320,
+                            50.28888667833
+                        ],
+                        [
+                            18.67750144705,
+                            50.28871732507
+                        ],
+                        [
+                            18.67728974722,
+                            50.28861378990
+                        ],
+                        [
+                            18.67725074705,
+                            50.28859442507
+                        ],
+                        [
+                            18.67729824705,
+                            50.28855622507
+                        ],
+                        [
+                            18.67726194705,
+                            50.28853812507
+                        ],
+                        [
+                            18.67724714705,
+                            50.28853072507
+                        ],
+                        [
+                            18.67723354705,
+                            50.28852392507
+                        ],
+                        [
+                            18.67719404705,
+                            50.28850422507
+                        ],
+                        [
+                            18.67718004705,
+                            50.28849722507
+                        ],
+                        [
+                            18.67714094705,
+                            50.28847782507
+                        ],
+                        [
+                            18.67713074705,
+                            50.28847302507
+                        ],
+                        [
+                            18.67707594705,
+                            50.28844562507
+                        ],
+                        [
+                            18.67696964705,
+                            50.28839292507
+                        ],
+                        [
+                            18.67691464705,
+                            50.28836552507
+                        ],
+                        [
+                            18.67686404705,
+                            50.28834042507
+                        ],
+                        [
+                            18.67680934705,
+                            50.28831312508
+                        ],
+                        [
+                            18.67678584705,
+                            50.28830142508
+                        ],
+                        [
+                            18.67678574705,
+                            50.28830142508
+                        ],
+                        [
+                            18.67679114705,
+                            50.28829712508
+                        ],
+                        [
+                            18.67679764705,
+                            50.28829202508
+                        ],
+                        [
+                            18.67681944705,
+                            50.28830272508
+                        ],
+                        [
+                            18.67683604705,
+                            50.28831082508
+                        ],
+                        [
+                            18.67687434705,
+                            50.28832952508
+                        ],
+                        [
+                            18.67688984705,
+                            50.28833722507
+                        ],
+                        [
+                            18.67692394705,
+                            50.28835392507
+                        ],
+                        [
+                            18.67698154705,
+                            50.28838212507
+                        ],
+                        [
+                            18.67703674705,
+                            50.28840912507
+                        ],
+                        [
+                            18.67704984705,
+                            50.28841552507
+                        ],
+                        [
+                            18.67708534705,
+                            50.28843292507
+                        ],
+                        [
+                            18.67710304705,
+                            50.28844152507
+                        ],
+                        [
+                            18.67715704705,
+                            50.28846802507
+                        ],
+                        [
+                            18.67721074705,
+                            50.28849432507
+                        ],
+                        [
+                            18.67725634705,
+                            50.28851662507
+                        ],
+                        [
+                            18.67727194705,
+                            50.28852422507
+                        ],
+                        [
+                            18.67729694705,
+                            50.28853652507
+                        ],
+                        [
+                            18.67731014705,
+                            50.28854292507
+                        ],
+                        [
+                            18.67733234705,
+                            50.28855382507
+                        ],
+                        [
+                            18.67734874705,
+                            50.28856182507
+                        ],
+                        [
+                            18.67737444705,
+                            50.28857442507
+                        ],
+                        [
+                            18.67738764705,
+                            50.28858092507
+                        ],
+                        [
+                            18.67744684705,
+                            50.28860992507
+                        ],
+                        [
+                            18.67743914705,
+                            50.28861622507
+                        ],
+                        [
+                            18.67744684705,
+                            50.28860992507
+                        ],
+                        [
+                            18.67766854705,
+                            50.28842712507
+                        ],
+                        [
+                            18.67766864705,
+                            50.28842692507
+                        ],
+                        [
+                            18.67771874705,
+                            50.28838622507
+                        ],
+                        [
+                            18.67774155500,
+                            50.28836771943
+                        ],
+                        [
+                            18.67778144705,
+                            50.28838782507
+                        ],
+                        [
+                            18.67779834705,
+                            50.28839632507
+                        ],
+                        [
+                            18.67782694705,
+                            50.28841052507
+                        ],
+                        [
+                            18.67784194705,
+                            50.28841802507
+                        ],
+                        [
+                            18.67788024705,
+                            50.28843722507
+                        ],
+                        [
+                            18.67789244705,
+                            50.28844352507
+                        ],
+                        [
+                            18.67790764705,
+                            50.28845102507
+                        ],
+                        [
+                            18.67798827483,
+                            50.28838398913
+                        ],
+                        [
+                            18.67827172269,
+                            50.28852438577
+                        ],
+                        [
+                            18.67824063359,
+                            50.28855028597
+                        ],
+                        [
+                            18.67821071409,
+                            50.28853588414
+                        ],
+                        [
+                            18.67812063038,
+                            50.28849313255
+                        ],
+                        [
+                            18.67802390955,
+                            50.28857387415
+                        ],
+                        [
+                            18.67798660266,
+                            50.28855594081
+                        ],
+                        [
+                            18.67808407218,
+                            50.28847521416
+                        ],
+                        [
+                            18.67798413559,
+                            50.28842756848
+                        ],
+                        [
+                            18.67788695346,
+                            50.28850828790
+                        ],
+                        [
+                            18.67811305190,
+                            50.28861635086
+                        ],
+                        [
+                            18.67821071409,
+                            50.28853588414
+                        ],
+                        [
+                            18.67824063359,
+                            50.28855028597
+                        ],
+                        [
+                            18.67810093374,
+                            50.28866570210
+                        ],
+                        [
+                            18.67781766077,
+                            50.28852562534
+                        ],
+                        [
+                            18.67786344705,
+                            50.28848762507
+                        ],
+                        [
+                            18.67783584705,
+                            50.28847432507
+                        ],
+                        [
+                            18.67781584705,
+                            50.28849102507
+                        ],
+                        [
+                            18.67781574705,
+                            50.28849102507
+                        ],
+                        [
+                            18.67780934705,
+                            50.28849652507
+                        ],
+                        [
+                            18.67781574705,
+                            50.28849102507
+                        ],
+                        [
+                            18.67781584705,
+                            50.28849102507
+                        ],
+                        [
+                            18.67781574705,
+                            50.28849102507
+                        ],
+                        [
+                            18.67775364705,
+                            50.28846082507
+                        ],
+                        [
+                            18.67773084705,
+                            50.28848012507
+                        ],
+                        [
+                            18.67770674705,
+                            50.28850002507
+                        ],
+                        [
+                            18.67759794705,
+                            50.28859092507
+                        ],
+                        [
+                            18.67757594705,
+                            50.28860922507
+                        ],
+                        [
+                            18.67755214705,
+                            50.28862912507
+                        ],
+                        [
+                            18.67752974705,
+                            50.28864782507
+                        ],
+                        [
+                            18.67759034705,
+                            50.28867802507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "id": "11954169403",
+                "level": "0",
+                "door": "yes",
+                "room_entry": "15"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67718004680,
+                    50.28849722470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "indoor": "level",
+                "id": "1289165674",
+                "type": "way",
+                "level": "0"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        18.67682754680,
+                        50.28800242471
+                    ],
+                    [
+                        18.67707894680,
+                        50.28779402472
+                    ],
+                    [
+                        18.67773394680,
+                        50.28811832471
+                    ],
+                    [
+                        18.67755644680,
+                        50.28826542471
+                    ],
+                    [
+                        18.67767654680,
+                        50.28832492471
+                    ],
+                    [
+                        18.67766884680,
+                        50.28833132471
+                    ],
+                    [
+                        18.67764664680,
+                        50.28834972470
+                    ],
+                    [
+                        18.67764194680,
+                        50.28835362470
+                    ],
+                    [
+                        18.67752184680,
+                        50.28829412471
+                    ],
+                    [
+                        18.67748244680,
+                        50.28832672471
+                    ],
+                    [
+                        18.67682754680,
+                        50.28800242471
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "name": "121",
+                "indoor": "room",
+                "type": "way",
+                "level": "1",
+                "id": "1289165631",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67709406692,
+                            50.28851713761
+                        ],
+                        [
+                            18.67714094705,
+                            50.28847782507
+                        ],
+                        [
+                            18.67707590705,
+                            50.28844562507
+                        ],
+                        [
+                            18.67702806701,
+                            50.28848450507
+                        ],
+                        [
+                            18.67709406692,
+                            50.28851713761
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "level": "1",
+                "door": "yes",
+                "id": "119541693707",
+                "room_entry": "stairs"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67745459520,
+                    50.28860385628
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "name": "15",
+                "indoor": "room",
+                "id": "1289165630",
+                "type": "way",
+                "level": "0",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67714644680,
+                            50.28854372470
+                        ],
+                        [
+                            18.67709334680,
+                            50.28851742470
+                        ],
+                        [
+                            18.67714094680,
+                            50.28847782470
+                        ],
+                        [
+                            18.67718004680,
+                            50.28849722470
+                        ],
+                        [
+                            18.67719404680,
+                            50.28850422470
+                        ],
+                        [
+                            18.67714644680,
+                            50.28854372470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "11954169382",
+                "relations": "[]",
+                "type": "node",
+                "level": "0",
+                "door": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67767394680,
+                    50.28836362470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "id": "1289165571",
+                "indoor": "room",
+                "name": "Aula C",
+                "room": "lecture",
+                "type": "way",
+                "level": "0"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67717844680,
+                            50.28870402470
+                        ],
+                        [
+                            18.67719534680,
+                            50.28869002470
+                        ],
+                        [
+                            18.67726314680,
+                            50.28863502470
+                        ],
+                        [
+                            18.67726924680,
+                            50.28862972470
+                        ],
+                        [
+                            18.67729064680,
+                            50.28861252470
+                        ],
+                        [
+                            18.67750144680,
+                            50.28871732470
+                        ],
+                        [
+                            18.67738864680,
+                            50.28880922470
+                        ],
+                        [
+                            18.67738824680,
+                            50.28880892470
+                        ],
+                        [
+                            18.67717844680,
+                            50.28870402470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "level": "1",
+                "door": "yes",
+                "room_entry": "111",
+                "type": "node"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67682310705,
+                    50.28830432508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "id": "1289165624",
+                "indoor": "room",
+                "name": "17",
+                "type": "way",
+                "level": "0",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67725094680,
+                            50.28859572470
+                        ],
+                        [
+                            18.67719944680,
+                            50.28857022470
+                        ],
+                        [
+                            18.67724714680,
+                            50.28853072470
+                        ],
+                        [
+                            18.67726194680,
+                            50.28853812470
+                        ],
+                        [
+                            18.67729824680,
+                            50.28855622470
+                        ],
+                        [
+                            18.67725094680,
+                            50.28859572470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "indoor": "room",
+                "type": "way",
+                "name": "114",
+                "level": "1",
+                "id": "1289165678",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67678570705,
+                            50.28830156508
+                        ],
+                        [
+                            18.67674850705,
+                            50.28828271508
+                        ],
+                        [
+                            18.67680835705,
+                            50.28823311508
+                        ],
+                        [
+                            18.67684611705,
+                            50.28825185508
+                        ],
+                        [
+                            18.67678570705,
+                            50.28830156508
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "111",
+                "indoor": "room",
+                "type": "way",
+                "level": "1",
+                "id": "1289165678",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67683182705,
+                            50.28830852508
+                        ],
+                        [
+                            18.67679762705,
+                            50.28829202508
+                        ],
+                        [
+                            18.67684611705,
+                            50.28825183508
+                        ],
+                        [
+                            18.67688010705,
+                            50.28826867508
+                        ],
+                        [
+                            18.67683182705,
+                            50.28830852508
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "5",
+                "indoor": "room",
+                "type": "way",
+                "level": "0",
+                "id": "1289165678",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67699526680,
+                            50.28838864470
+                        ],
+                        [
+                            18.67688700680,
+                            50.28833575471
+                        ],
+                        [
+                            18.67693525680,
+                            50.28829599471
+                        ],
+                        [
+                            18.67704388680,
+                            50.28835008470
+                        ],
+                        [
+                            18.67699526680,
+                            50.28838864470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "room": "class",
+                "indoor": "room",
+                "type": "way",
+                "level": "1",
+                "id": "1289165656",
+                "name": "129"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67790764705,
+                            50.28845102507
+                        ],
+                        [
+                            18.67789244705,
+                            50.28844352507
+                        ],
+                        [
+                            18.67788024705,
+                            50.28843722507
+                        ],
+                        [
+                            18.67784194705,
+                            50.28841802507
+                        ],
+                        [
+                            18.67789184705,
+                            50.28837592507
+                        ],
+                        [
+                            18.67793134705,
+                            50.28839542507
+                        ],
+                        [
+                            18.67794314705,
+                            50.28840122507
+                        ],
+                        [
+                            18.67795844705,
+                            50.28840882507
+                        ],
+                        [
+                            18.67795854705,
+                            50.28840882507
+                        ],
+                        [
+                            18.67790764705,
+                            50.28845102507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Winda Towarowa",
+                "relations": "[]",
+                "access": "yes",
+                "indoor": "room",
+                "highway": "elevator",
+                "type": "way",
+                "level": "0-9",
+                "wheelchair": "yes",
+                "room": "elevator",
+                "id": "1289165675"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67715704680,
+                            50.28846802470
+                        ],
+                        [
+                            18.67710304680,
+                            50.28844152470
+                        ],
+                        [
+                            18.67715091182,
+                            50.28840278342
+                        ],
+                        [
+                            18.67720384680,
+                            50.28842892470
+                        ],
+                        [
+                            18.67715704680,
+                            50.28846802470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "116",
+                "indoor": "room",
+                "type": "way",
+                "level": "1",
+                "id": "1289165678",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67682763705,
+                            50.28838574507
+                        ],
+                        [
+                            18.67677247705,
+                            50.28835854507
+                        ],
+                        [
+                            18.67682058705,
+                            50.28831880508
+                        ],
+                        [
+                            18.67687574705,
+                            50.28834622507
+                        ],
+                        [
+                            18.67682763705,
+                            50.28838574507
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "id": "11954169770",
+                "level": "0",
+                "door": "yes",
+                "room_entry": "22"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67778144680,
+                    50.28838782470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "11954169381",
+                "relations": "[]",
+                "type": "node",
+                "level": "1",
+                "door": "yes",
+                "room_entry": "129a"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67782694705,
+                    50.28841052507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "indoor": "room",
+                "type": "way",
+                "level": "0",
+                "id": "1289165678",
+                "name": "10",
+                "room": "class"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67688303680,
+                            50.28841306470
+                        ],
+                        [
+                            18.67682763680,
+                            50.28838574470
+                        ],
+                        [
+                            18.67687574680,
+                            50.28834622470
+                        ],
+                        [
+                            18.67693089680,
+                            50.28837364470
+                        ],
+                        [
+                            18.67688303680,
+                            50.28841306470
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "type": "node",
+                "level": "0",
+                "id": "11954169386",
+                "door": "yes",
+                "room_entry": "16"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.67723354680,
+                    50.28852392470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "relations": "[]",
+                "access": "yes",
+                "indoor": "corridor",
+                "type": "way",
+                "level": "0",
+                "id": "1289165621"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            18.67759034680,
+                            50.28867802470
+                        ],
+                        [
+                            18.67757074680,
+                            50.28869422470
+                        ],
+                        [
+                            18.67752734680,
+                            50.28873022470
+                        ],
+                        [
+                            18.67750144680,
+                            50.28871732470
+                        ],
+                        [
+                            18.67729064680,
+                            50.28861252470
+                        ],
+                        [
+                            18.67726924680,
+                            50.28862972470
+                        ],
+                        [
+                            18.67726314680,
+                            50.28863502470
+                        ],
+                        [
+                            18.67719534680,
+                            50.28869002470
+                        ],
+                        [
+                            18.67717844680,
+                            50.28870402470
+                        ],
+                        [
+                            18.67707724680,
+                            50.28878682470
+                        ],
+                        [
+                            18.67707134680,
+                            50.28879132470
+                        ],
+                        [
+                            18.67705444680,
+                            50.28878262470
+                        ],
+                        [
+                            18.67703684680,
+                            50.28877312470
+                        ],
+                        [
+                            18.67725094680,
+                            50.28859572470
+                        ],
+                        [
+                            18.67729824680,
+                            50.28855622470
+                        ],
+                        [
+                            18.67726194680,
+                            50.28853812470
+                        ],
+                        [
+                            18.67724714680,
+                            50.28853072470
+                        ],
+                        [
+                            18.67723354680,
+                            50.28852392470
+                        ],
+                        [
+                            18.67719404680,
+                            50.28850422470
+                        ],
+                        [
+                            18.67718004680,
+                            50.28849722470
+                        ],
+                        [
+                            18.67714094680,
+                            50.28847782470
+                        ],
+                        [
+                            18.67713074680,
+                            50.28847302470
+                        ],
+                        [
+                            18.67707594680,
+                            50.28844562470
+                        ],
+                        [
+                            18.67696964680,
+                            50.28839292470
+                        ],
+                        [
+                            18.67691464680,
+                            50.28836552470
+                        ],
+                        [
+                            18.67686404680,
+                            50.28834042470
+                        ],
+                        [
+                            18.67680934680,
+                            50.28831312471
+                        ],
+                        [
+                            18.67678584680,
+                            50.28830142471
+                        ],
+                        [
+                            18.67678574680,
+                            50.28830142471
+                        ],
+                        [
+                            18.67679114680,
+                            50.28829712471
+                        ],
+                        [
+                            18.67679764680,
+                            50.28829202471
+                        ],
+                        [
+                            18.67681944680,
+                            50.28830272471
+                        ],
+                        [
+                            18.67683604680,
+                            50.28831082471
+                        ],
+                        [
+                            18.67687434680,
+                            50.28832952471
+                        ],
+                        [
+                            18.67688984680,
+                            50.28833722470
+                        ],
+                        [
+                            18.67692394680,
+                            50.28835392470
+                        ],
+                        [
+                            18.67698154680,
+                            50.28838212470
+                        ],
+                        [
+                            18.67703674680,
+                            50.28840912470
+                        ],
+                        [
+                            18.67704984680,
+                            50.28841552470
+                        ],
+                        [
+                            18.67708534680,
+                            50.28843292470
+                        ],
+                        [
+                            18.67710304680,
+                            50.28844152470
+                        ],
+                        [
+                            18.67715704680,
+                            50.28846802470
+                        ],
+                        [
+                            18.67721074680,
+                            50.28849432470
+                        ],
+                        [
+                            18.67725634680,
+                            50.28851662470
+                        ],
+                        [
+                            18.67727194680,
+                            50.28852422470
+                        ],
+                        [
+                            18.67729694680,
+                            50.28853652470
+                        ],
+                        [
+                            18.67731014680,
+                            50.28854292470
+                        ],
+                        [
+                            18.67733234680,
+                            50.28855382470
+                        ],
+                        [
+                            18.67734874680,
+                            50.28856182470
+                        ],
+                        [
+                            18.67737444680,
+                            50.28857442470
+                        ],
+                        [
+                            18.67738764680,
+                            50.28858092470
+                        ],
+                        [
+                            18.67744684680,
+                            50.28860992470
+                        ],
+                        [
+                            18.67743914680,
+                            50.28861622470
+                        ],
+                        [
+                            18.67744684680,
+                            50.28860992470
+                        ],
+                        [
+                            18.67766854680,
+                            50.28842712470
+                        ],
+                        [
+                            18.67766864680,
+                            50.28842692470
+                        ],
+                        [
+                            18.67771874680,
+                            50.28838622470
+                        ],
+                        [
+                            18.67770454680,
+                            50.28837902470
+                        ],
+                        [
+                            18.67767394680,
+                            50.28836362470
+                        ],
+                        [
+                            18.67764664680,
+                            50.28834972470
+                        ],
+                        [
+                            18.67766884680,
+                            50.28833132471
+                        ],
+                        [
+                            18.67769564680,
+                            50.28834482470
+                        ],
+                        [
+                            18.67771094680,
+                            50.28835242470
+                        ],
+                        [
+                            18.67771124680,
+                            50.28835252470
+                        ],
+                        [
+                            18.67773804680,
+                            50.28836602470
+                        ],
+                        [
+                            18.67775414680,
+                            50.28837422470
+                        ],
+                        [
+                            18.67778144680,
+                            50.28838782470
+                        ],
+                        [
+                            18.67779834680,
+                            50.28839632470
+                        ],
+                        [
+                            18.67782694680,
+                            50.28841052470
+                        ],
+                        [
+                            18.67784194680,
+                            50.28841802470
+                        ],
+                        [
+                            18.67788024680,
+                            50.28843722470
+                        ],
+                        [
+                            18.67789244680,
+                            50.28844352470
+                        ],
+                        [
+                            18.67790764680,
+                            50.28845102470
+                        ],
+                        [
+                            18.67786344680,
+                            50.28848762470
+                        ],
+                        [
+                            18.67783584680,
+                            50.28847432470
+                        ],
+                        [
+                            18.67781584680,
+                            50.28849102470
+                        ],
+                        [
+                            18.67781574680,
+                            50.28849102470
+                        ],
+                        [
+                            18.67780934680,
+                            50.28849652470
+                        ],
+                        [
+                            18.67781574680,
+                            50.28849102470
+                        ],
+                        [
+                            18.67781584680,
+                            50.28849102470
+                        ],
+                        [
+                            18.67781574680,
+                            50.28849102470
+                        ],
+                        [
+                            18.67775364680,
+                            50.28846082470
+                        ],
+                        [
+                            18.67773084680,
+                            50.28848012470
+                        ],
+                        [
+                            18.67770674680,
+                            50.28850002470
+                        ],
+                        [
+                            18.67759794680,
+                            50.28859092470
+                        ],
+                        [
+                            18.67757594680,
+                            50.28860922470
+                        ],
+                        [
+                            18.67755214680,
+                            50.28862912470
+                        ],
+                        [
+                            18.67752974680,
+                            50.28864782470
+                        ],
+                        [
+                            18.67759034680,
+                            50.28867802470
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}
